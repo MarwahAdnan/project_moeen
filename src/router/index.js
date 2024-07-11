@@ -11,6 +11,7 @@ import ServicesOne from '@/views/ServicesOne.vue'
 import chat from '@/views/chat.vue'
 import join from '@/views/join.vue'
 import tlkhes from '@/views/tlkhes.vue'
+import map from '@/views/khareta.vue'
 const routes = [
 
 
@@ -63,6 +64,11 @@ const routes = [
     path: '/services/tlkhes',
     name: 'tlkhes',
     component: tlkhes,
+  },
+  {
+    path: '/services/map',
+    name: 'map',
+    component: map,
   }
 
 ]

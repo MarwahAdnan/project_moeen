@@ -28,7 +28,7 @@
                 خدمات معين
             </div>
 
-            <div class="flex justify-around gap-1 mb-4 mx-14">
+            <div class="flex justify-around gap-4 mb-4 mx-14">
 
                 <!--  -->
                 <div class="    rounded overflow-hidden bg-white   shadow-sm   shadow-[#503E9D] card">
@@ -40,7 +40,7 @@
                     </div>
                     <div class=" pt-3">
 
-                        <router-link   to="/services/ServicesOne" type="button" class="  bg-[#503E9D]     text-white font-bold "> تعرف على معين</router-link>
+                        <router-link   to="/services/ServicesOne" type="button" class="  bg-[#503E9D] rounded-lg text-sm p-3     text-white font-bold "> تعرف على معين</router-link>
                 
                     </div>
                   </div>
@@ -55,14 +55,14 @@
                         تتيح هذه الخدمة للطلاب طرح أي سؤال يتعلق بالمادة الدراسية، وتقوم المنصة بتبسيط الإجابة وتسهيل فهمها.  </span>
                     </div>
                     <div class="pt-3">
-                        <router-link to="/services/chat" type="button" class="  bg-[#503E9D]    text-white font-bold "> اسال معين</router-link>
+                        <router-link to="/services/chat" type="button" class="  bg-[#503E9D] rounded-lg text-sm p-3      text-white font-bold "> اسال معين</router-link>
                 
                     </div>
                   </div>
                 <!--  -->
 
                  <!--  -->
-                 <div class="   overflow-hidden bg-white shadow-sm  shadow- [#503E9D] card">
+                 <div class="   overflow-hidden bg-white shadow-sm  shadow-[#503E9D] card">
                     <img class=" mx-auto" src="../assets/img/tawwen.png" alt="Sunset in the mountains">
                     <div class="kk">
                       <div class="font-bold text-xl   text-[#503E9D] ">تعاون</div>
@@ -71,7 +71,7 @@
                     </div>
                     
                     <div class="pt-3">
-                        <router-link to="/services/join" type="button" class=" bg-[#503E9D]    text-white font-bold">انضم لتعاون</router-link>
+                        <router-link to="/services/join" type="button" class=" bg-[#503E9D] rounded-lg text-sm p-3      text-white font-bold">انضم لتعاون</router-link>
                       </div>
                     
                   </div>
@@ -108,7 +108,7 @@ left: 812px;
 padding: 3px 25px 3px 25px;
 gap: 10px;
 opacity: 0px;
-
+border-radius: 25px
 }
 
 .card img{
@@ -136,14 +136,4 @@ text-align: center;
 
 }
 
-.card a{
-  width: 174px;
-height: 44px;
-padding: 10px 14px 10px 14px;
-gap: 10px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-margin-top: 100px
-
-}
 </style>
